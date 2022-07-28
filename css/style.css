@@ -14,6 +14,8 @@ header {
 	border-bottom:  1px solid seashell;
 	position: fixed;
 	width: 100%;
+	top: 0;
+	background-color: black;
 }
 
 #nav-list {
@@ -40,10 +42,13 @@ header {
 	background-image: url('../images/img-mission-background.jpg');
 	background-repeat:  no-repeat;
 	width:  1200px;
-	margin: auto;
+	/*margin: auto;*/
 	height:  700px;
 	display: flex;
 	align-items: center;
+	margin-top: 69px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #mission-statement {
